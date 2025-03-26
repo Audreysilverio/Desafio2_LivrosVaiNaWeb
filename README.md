@@ -9,7 +9,7 @@ Essa é uma API simples feita com Flask e SQLite para fins de estudo na escola V
 
 1. Faça o clone do repositório:
 ```bash
-git clone <LINK_DO_REPOSITÓRIO>
+git clone https://github.com/Audreysilverio/Desafio2_LivrosVaiNaWeb.git
 cd nome_do_projeto
 ```
 
@@ -48,10 +48,10 @@ Endpoint para cadastro das informações do livro doado.
 **Envio (JSON)**
 ```json
 {
-    "titulo":"Ainda estou devendo aqui",
+    "titulo":"Ainda estou devendo o pix",
     "categoria":"Drama/Finanças",
-    "autor":"Fernando Polia",
-    "image_url":"https://exemplo.com"
+    "autor":"Fernando Pilares",
+    "image_url":"https://..."
 }
 ```
 **Resposta (201):**
@@ -71,10 +71,10 @@ O endpoint /livros retorna todos os livros cadastrados na API.
 ```json
 {
     "id":"1",
-    "titulo":"Ainda estou devendo aqui",
-    "categoria":"Finanças",
-    "autor":"Fernando Polia",
-    "image_url":"https://exemplo.com"
+    "titulo":"Ainda estou devendo o pix",
+    "categoria":"Drama",
+    "autor":"Fernando Pilares",
+    "image_url":"https://..."
 }
 ```
 ---
@@ -88,4 +88,4 @@ O endpoint /livros retorna todos os livros cadastrados na API.
 
 ---
 
-Feito por Audrey Silverio Ferreira
+Feito por Audrey Silverio Ferreira para o programa Full Stack do VnW
